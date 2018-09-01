@@ -10,3 +10,27 @@
 	path = feedstocks/gdal
 	url = https://github.com/dakcarto/gdal-feedstock.git
 	branch = master
+[submodule "qca"]
+	path = feedstocks/qca
+	url = git@github.com:dakcarto/qca-feedstock.git
+	branch = master
+[submodule "qtkeychain"]
+	path = feedstocks/qtkeychain
+	url = git@github.com:dakcarto/qtkeychain-feedstock.git
+	branch = master
+[submodule "qscintilla2"]
+	path = feedstocks/qscintilla2
+	url = git@github.com:dakcarto/qscintilla2-feedstock.git
+	branch = master
+[submodule "qwt"]
+	path = feedstocks/qwt
+	url = git@github.com:dakcarto/qwt-feedstock.git
+	branch = master
+[submodule "qwtpolar"]
+	path = feedstocks/qwtpolar
+	url = git@github.com:dakcarto/qwtpolar-feedstock.git
+	branch = master
+[submodule "qtwebkit"]
+	path = feedstocks/qtwebkit
+	url = git@github.com:dakcarto/qtwebkit-feedstock.git
+	branch = master
