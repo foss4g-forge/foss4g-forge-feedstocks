@@ -46,3 +46,7 @@
 	path = feedstocks/pyqtwebkit
 	url = git@github.com:dakcarto/pyqtwebkit-feedstock.git
 	branch = master
+[submodule "qt"]
+	path = feedstocks/qt
+	url = git@github.com:dakcarto/qt-feedstock.git
+	branch = master
