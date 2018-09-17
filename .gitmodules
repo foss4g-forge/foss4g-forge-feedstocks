@@ -50,3 +50,7 @@
 	path = feedstocks/qt
 	url = git@github.com:dakcarto/qt-feedstock.git
 	branch = master
+[submodule "anaconda-env"]
+	path = feedstocks/anaconda-env
+	url = git@github.com:dakcarto/anaconda-env-feedstock.git
+	branch = master
