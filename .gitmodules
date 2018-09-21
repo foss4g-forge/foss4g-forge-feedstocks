@@ -54,3 +54,7 @@
 	path = feedstocks/anaconda-env
 	url = git@github.com:dakcarto/anaconda-env-feedstock.git
 	branch = master
+[submodule "compiler-rt"]
+	path = feedstocks/compiler-rt
+	url = git@github.com:dakcarto/compiler-rt-feedstock.git
+	branch = master
