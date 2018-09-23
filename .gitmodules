@@ -1,14 +1,14 @@
 [submodule "qgis"]
 	path = feedstocks/qgis
-	url = https://github.com/dakcarto/qgis-feedstock.git
+	url = git@github.com:dakcarto/qgis-feedstock.git
 	branch = master
 [submodule "libgdal"]
 	path = feedstocks/libgdal
-	url = https://github.com/dakcarto/libgdal-feedstock.git
+	url = git@github.com:dakcarto/libgdal-feedstock.git
 	branch = master
 [submodule "gdal"]
 	path = feedstocks/gdal
-	url = https://github.com/dakcarto/gdal-feedstock.git
+	url = git@github.com:dakcarto/gdal-feedstock.git
 	branch = master
 [submodule "qca"]
 	path = feedstocks/qca
