@@ -58,3 +58,7 @@
 	path = feedstocks/compiler-rt
 	url = git@github.com:dakcarto/compiler-rt-feedstock.git
 	branch = master
+[submodule "pocl"]
+	path = feedstocks/pocl
+	url = git@github.com:dakcarto/pocl-feedstock.git
+	branch = master
