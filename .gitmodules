@@ -62,3 +62,7 @@
 	path = feedstocks/pocl
 	url = git@github.com:dakcarto/pocl-feedstock.git
 	branch = master
+[submodule "opencl-clhpp"]
+	path = feedstocks/opencl-clhpp
+	url = git@github.com:dakcarto/opencl-clhpp-feedstock.git
+	branch = master
