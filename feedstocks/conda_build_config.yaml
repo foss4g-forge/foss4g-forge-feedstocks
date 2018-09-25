@@ -1,17 +1,22 @@
 MACOSX_DEPLOYMENT_TARGET:
-  - '10.9'
+  #- '10.9'
+  - '10.10'
 c_compiler:
   - toolchain_c
 cxx_compiler:
   - toolchain_cxx
 macos_machine:
-  - x86_64-apple-darwin13.4.0
+  #- x86_64-apple-darwin13.4.0
+  - x86_64-apple-darwin15.6.0
 macos_min_version:
-  - '10.9'
+  #- '10.9'
+  - '10.10'
 numpy:
-  - '1.9'
+  #- '1.9'
+  - '1.11'
 CONDA_BUILD_SYSROOT:
-#  - /opt/MacOSX10.11.sdk  # [osx]
-  - /opt/MacOSX10.9.sdk   # [osx]
+  #- /opt/MacOSX10.11.sdk   # [osx]
+  - /opt/MacOSX10.10.sdk   # [osx]
+  #- /opt/MacOSX10.9.sdk    # [osx]
 ARCH:
   - '64'
