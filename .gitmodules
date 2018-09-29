@@ -66,3 +66,7 @@
 	path = feedstocks/opencl-clhpp
 	url = git@github.com:dakcarto/opencl-clhpp-feedstock.git
 	branch = master
+[submodule "constructor"]
+	path = feedstocks/constructor
+	url = git@github.com:conda-forge/constructor-feedstock.git
+	branch = master
