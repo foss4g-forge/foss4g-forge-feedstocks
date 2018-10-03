@@ -1,72 +1,72 @@
 [submodule "qgis"]
 	path = feedstocks/qgis
-	url = git@github.com:dakcarto/qgis-feedstock.git
+	url = git@github.com:foss4g-forge/qgis-feedstock.git
 	branch = master
 [submodule "libgdal"]
 	path = feedstocks/libgdal
-	url = git@github.com:dakcarto/libgdal-feedstock.git
+	url = git@github.com:foss4g-forge/libgdal-feedstock.git
 	branch = master
 [submodule "gdal"]
 	path = feedstocks/gdal
-	url = git@github.com:dakcarto/gdal-feedstock.git
+	url = git@github.com:foss4g-forge/gdal-feedstock.git
 	branch = master
 [submodule "qca"]
 	path = feedstocks/qca
-	url = git@github.com:dakcarto/qca-feedstock.git
+	url = git@github.com:foss4g-forge/qca-feedstock.git
 	branch = master
 [submodule "qtkeychain"]
 	path = feedstocks/qtkeychain
-	url = git@github.com:dakcarto/qtkeychain-feedstock.git
+	url = git@github.com:foss4g-forge/qtkeychain-feedstock.git
 	branch = master
 [submodule "qscintilla2"]
 	path = feedstocks/qscintilla2
-	url = git@github.com:dakcarto/qscintilla2-feedstock.git
+	url = git@github.com:foss4g-forge/qscintilla2-feedstock.git
 	branch = master
 [submodule "qwt"]
 	path = feedstocks/qwt
-	url = git@github.com:dakcarto/qwt-feedstock.git
+	url = git@github.com:foss4g-forge/qwt-feedstock.git
 	branch = master
 [submodule "qwtpolar"]
 	path = feedstocks/qwtpolar
-	url = git@github.com:dakcarto/qwtpolar-feedstock.git
+	url = git@github.com:foss4g-forge/qwtpolar-feedstock.git
 	branch = master
 [submodule "qtwebkit"]
 	path = feedstocks/qtwebkit
-	url = git@github.com:dakcarto/qtwebkit-feedstock.git
+	url = git@github.com:foss4g-forge/qtwebkit-feedstock.git
 	branch = master
 [submodule "pyqt"]
 	path = feedstocks/pyqt
-	url = git@github.com:dakcarto/pyqt-feedstock.git
+	url = git@github.com:foss4g-forge/pyqt-feedstock.git
 	branch = master
 [submodule "pyqt-qtwebkit"]
 	path = feedstocks/pyqt-qtwebkit
-	url = git@github.com:dakcarto/pyqt-qtwebkit-feedstock.git
+	url = git@github.com:foss4g-forge/pyqt-qtwebkit-feedstock.git
 	branch = master
 [submodule "pyqtwebkit"]
 	path = feedstocks/pyqtwebkit
-	url = git@github.com:dakcarto/pyqtwebkit-feedstock.git
+	url = git@github.com:foss4g-forge/pyqtwebkit-feedstock.git
 	branch = master
 [submodule "qt"]
 	path = feedstocks/qt
-	url = git@github.com:dakcarto/qt-feedstock.git
+	url = git@github.com:foss4g-forge/qt-feedstock.git
 	branch = master
 [submodule "anaconda-env"]
 	path = feedstocks/anaconda-env
-	url = git@github.com:dakcarto/anaconda-env-feedstock.git
+	url = git@github.com:foss4g-forge/anaconda-env-feedstock.git
 	branch = master
 [submodule "compiler-rt"]
 	path = feedstocks/compiler-rt
-	url = git@github.com:dakcarto/compiler-rt-feedstock.git
+	url = git@github.com:foss4g-forge/compiler-rt-feedstock.git
 	branch = master
 [submodule "pocl"]
 	path = feedstocks/pocl
-	url = git@github.com:dakcarto/pocl-feedstock.git
+	url = git@github.com:foss4g-forge/pocl-feedstock.git
 	branch = master
 [submodule "opencl-clhpp"]
 	path = feedstocks/opencl-clhpp
-	url = git@github.com:dakcarto/opencl-clhpp-feedstock.git
+	url = git@github.com:foss4g-forge/opencl-clhpp-feedstock.git
 	branch = master
 [submodule "constructor"]
 	path = feedstocks/constructor
-	url = git@github.com:conda-forge/constructor-feedstock.git
+	url = git@github.com:foss4g-forge/constructor-feedstock.git
 	branch = master
