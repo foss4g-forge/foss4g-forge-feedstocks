@@ -70,4 +70,7 @@
 	path = feedstocks/constructor
 	url = git@github.com:osgeo-forge/constructor-feedstock.git
 	branch = master
+[submodule "bzip2"]
+	path = feedstocks/bzip2
+	url = git@github.com:osgeo-forge/bzip2-feedstock.git
 	branch = master
