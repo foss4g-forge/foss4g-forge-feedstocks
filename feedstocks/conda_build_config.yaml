@@ -1,22 +1,33 @@
-MACOSX_DEPLOYMENT_TARGET:
-  #- '10.9'
-  - '10.10'
+ARCH:
+  - '64'
 c_compiler:
-  - toolchain_c
-cxx_compiler:
-  - toolchain_cxx
-macos_machine:
-  #- x86_64-apple-darwin13.4.0
-  - x86_64-apple-darwin15.6.0
-macos_min_version:
-  #- '10.9'
-  - '10.10'
-numpy:
-  #- '1.9'
-  - '1.11'
+  - toolchain_c  # [unix]
+  - vs2015       # [win]
 CONDA_BUILD_SYSROOT:
   #- /opt/MacOSX10.11.sdk   # [osx]
   - /opt/MacOSX10.10.sdk   # [osx]
   #- /opt/MacOSX10.9.sdk    # [osx]
-ARCH:
-  - '64'
+cxx_compiler:
+  - toolchain_cxx  # [unix]
+  - vs2015         # [win]
+channel_sources:
+- local,conda-forge,defaults
+macos_machine:
+  #- x86_64-apple-darwin13.4.0
+  - x86_64-apple-darwin15.6.0
+macos_min_version:
+  - '10.10'
+MACOSX_DEPLOYMENT_TARGET:
+  #- '10.9'
+  - '10.10'
+numpy:
+  - '1.11'
+python:
+- '3.7'
+vc:
+- '14'
+zip_keys:
+- - python
+  - vc
+  - c_compiler
+  - cxx_compiler
