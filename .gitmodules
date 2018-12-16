@@ -78,3 +78,7 @@
 	path = feedstocks/grass
 	url = git@github.com:osgeo-forge/grass-feedstock.git
 	branch = master
+[submodule "wxwidgets"]
+	path = feedstocks/wxwidgets
+	url = git@github.com:osgeo-forge/wxwidgets-feedstock.git
+	branch = master
