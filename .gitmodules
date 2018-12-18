@@ -82,3 +82,7 @@
 	path = feedstocks/wxwidgets
 	url = git@github.com:osgeo-forge/wxwidgets-feedstock.git
 	branch = master
+[submodule "saga-gis-lts"]
+	path = feedstocks/saga-gis-lts
+	url = git@github.com:osgeo-forge/saga-gis-lts-feedstock.git
+	branch = master
