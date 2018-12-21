@@ -86,3 +86,7 @@
 	path = feedstocks/saga-gis-lts
 	url = git@github.com:osgeo-forge/saga-gis-lts-feedstock.git
 	branch = master
+[submodule "libxdr"]
+	path = feedstocks/libxdr
+	url = git@github.com:osgeo-forge/libxdr-feedstock.git
+	branch = master
