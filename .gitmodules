@@ -90,3 +90,7 @@
 	path = feedstocks/libxdr
 	url = git@github.com:osgeo-forge/libxdr-feedstock.git
 	branch = master
+[submodule "pdcurses"]
+	path = feedstocks/pdcurses
+	url = git@github.com:osgeo-forge/pdcurses-feedstock.git
+	branch = master
