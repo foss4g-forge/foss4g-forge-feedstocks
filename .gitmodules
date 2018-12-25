@@ -98,3 +98,7 @@
 	path = feedstocks/liblas
 	url = git@github.com:osgeo-forge/liblas-feedstock.git
 	branch = master
+[submodule "laszip"]
+	path = feedstocks/laszip
+	url = git@github.com:osgeo-forge/laszip-feedstock.git
+	branch = master
