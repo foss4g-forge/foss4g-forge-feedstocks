@@ -94,3 +94,7 @@
 	path = feedstocks/pdcurses
 	url = git@github.com:osgeo-forge/pdcurses-feedstock.git
 	branch = master
+[submodule "liblas"]
+	path = feedstocks/liblas
+	url = git@github.com:osgeo-forge/liblas-feedstock.git
+	branch = master
