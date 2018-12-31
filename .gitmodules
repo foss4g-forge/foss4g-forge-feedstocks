@@ -106,3 +106,7 @@
 	path = feedstocks/conda-forge-pinning
 	url = git@github.com:osgeo-forge/conda-forge-pinning-feedstock.git
 	branch = master
+[submodule "gnu-regex"]
+	path = feedstocks/gnu-regex
+	url = git@github.com:osgeo-forge/gnu-regex-feedstock.git
+	branch = master
