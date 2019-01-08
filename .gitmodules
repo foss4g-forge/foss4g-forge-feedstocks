@@ -114,3 +114,7 @@
 	path = feedstocks/python2
 	url = git@github.com:osgeo-forge/python2-feedstock.git
 	branch = master
+[submodule "grass-python2"]
+	path = feedstocks/grass-python2
+	url = git@github.com:osgeo-forge/grass-python2-feedstock.git
+	branch = master
