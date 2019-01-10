@@ -126,3 +126,7 @@
 	path = feedstocks/win-utils
 	url = git@github.com:osgeo-forge/win-utils-feedstock.git
 	branch = master
+[submodule "oracle-instantclient"]
+	path = feedstocks/oracle-instantclient
+	url = git@github.com:osgeo-forge/oracle-instantclient-feedstock.git
+	branch = master
