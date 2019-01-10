@@ -118,3 +118,11 @@
 	path = feedstocks/grass-python2
 	url = git@github.com:osgeo-forge/grass-python2-feedstock.git
 	branch = master
+[submodule "osgf-env"]
+	path = feedstocks/osgf-env
+	url = git@github.com:osgeo-forge/osgf-env-feedstock.git
+	branch = master
+[submodule "win-utils"]
+	path = feedstocks/win-utils
+	url = git@github.com:osgeo-forge/win-utils-feedstock.git
+	branch = master
