@@ -130,3 +130,7 @@
 	path = feedstocks/oracle-instantclient
 	url = git@github.com:osgeo-forge/oracle-instantclient-feedstock.git
 	branch = master
+[submodule "gpsbabel"]
+	path = feedstocks/gpsbabel
+	url = git@github.com:osgeo-forge/gpsbabel-feedstock.git
+	branch = master
