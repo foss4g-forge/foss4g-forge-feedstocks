@@ -134,3 +134,7 @@
 	path = feedstocks/gpsbabel
 	url = git@github.com:osgeo-forge/gpsbabel-feedstock.git
 	branch = master
+[submodule "fastcgi"]
+	path = feedstocks/fastcgi
+	url = git@github.com:osgeo-forge/fastcgi-feedstock.git
+	branch = master
