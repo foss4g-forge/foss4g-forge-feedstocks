@@ -138,3 +138,7 @@
 	path = feedstocks/fastcgi
 	url = git@github.com:osgeo-forge/fastcgi-feedstock.git
 	branch = master
+[submodule "sqlite"]
+	path = feedstocks/sqlite
+	url = git@github.com:osgeo-forge/sqlite-feedstock.git
+	branch = master
