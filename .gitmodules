@@ -142,3 +142,7 @@
 	path = feedstocks/sqlite
 	url = git@github.com:osgeo-forge/sqlite-feedstock.git
 	branch = master
+[submodule "saga-ltr"]
+	path = feedstocks/saga-ltr
+	url = git@github.com:osgeo-forge/saga-ltr-feedstock.git
+	branch = master
