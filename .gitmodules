@@ -142,3 +142,7 @@
 	path = feedstocks/saga-ltr
 	url = git@github.com:osgeo-forge/saga-ltr-feedstock.git
 	branch = master
+[submodule "libzip"]
+	path = feedstocks/libzip
+	url = git@github.com:osgeo-forge/libzip-feedstock.git
+	branch = master
