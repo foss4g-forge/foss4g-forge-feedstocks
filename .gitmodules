@@ -150,3 +150,7 @@
 	path = feedstocks/filegdb-api
 	url = git@github.com:osgeo-forge/filegdb-api-feedstock.git
 	branch = master
+[submodule "libgdal-filegdb"]
+	path = feedstocks/libgdal-filegdb
+	url = git@github.com:osgeo-forge/libgdal-filegdb-feedstock.git
+	branch = master
