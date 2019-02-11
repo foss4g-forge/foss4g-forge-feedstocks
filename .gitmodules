@@ -146,3 +146,7 @@
 	path = feedstocks/libzip
 	url = git@github.com:osgeo-forge/libzip-feedstock.git
 	branch = master
+[submodule "filegdb-api"]
+	path = feedstocks/filegdb-api
+	url = git@github.com:osgeo-forge/filegdb-api-feedstock.git
+	branch = master
