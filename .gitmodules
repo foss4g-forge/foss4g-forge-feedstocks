@@ -154,3 +154,31 @@
 	path = feedstocks/libgdal-filegdb
 	url = git@github.com:osgeo-forge/libgdal-filegdb-feedstock.git
 	branch = master
+[submodule "ogdi"]
+	path = feedstocks/ogdi
+	url = git@github.com:osgeo-forge/ogdi-feedstock.git
+	branch = master
+[submodule "libgdal-ogdi"]
+	path = feedstocks/libgdal-ogdi
+	url = git@github.com:osgeo-forge/libgdal-ogdi-feedstock.git
+	branch = master
+[submodule "ecwjp2-sdk"]
+	path = feedstocks/ecwjp2-sdk
+	url = git@github.com:osgeo-forge/ecwjp2-sdk-feedstock.git
+	branch = master
+[submodule "libgdal-ecwjp2"]
+	path = feedstocks/libgdal-ecwjp2
+	url = git@github.com:osgeo-forge/libgdal-ecwjp2-feedstock.git
+	branch = master
+[submodule "mrsid-sdk"]
+	path = feedstocks/mrsid-sdk
+	url = git@github.com:osgeo-forge/mrsid-sdk-feedstock.git
+	branch = master
+[submodule "libgdal-mrsid"]
+	path = feedstocks/libgdal-mrsid
+	url = git@github.com:osgeo-forge/libgdal-mrsid-feedstock.git
+	branch = master
+[submodule "libgdal-oracle"]
+	path = feedstocks/libgdal-oracle
+	url = git@github.com:osgeo-forge/libgdal-oracle-feedstock.git
+	branch = master
