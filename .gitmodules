@@ -182,3 +182,7 @@
 	path = feedstocks/libgdal-oracle
 	url = git@github.com:osgeo-forge/libgdal-oracle-feedstock.git
 	branch = master
+[submodule "qtserialport"]
+	path = feedstocks/qtserialport
+	url = git@github.com:osgeo-forge/qtserialport-feedstock.git
+	branch = master
