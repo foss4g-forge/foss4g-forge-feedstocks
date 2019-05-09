@@ -1,0 +1,148 @@
+# macOS 10.11 (matches Travix CI xcode7.3 image)
+# install Command_Line_Tools_OS_X_10.11_for_Xcode_7.3.1.dmg
+
+# macOS 10.10 (matches Travix CI xcode6.4 image)
+# install Command_Line_Tools_OS_X_10.10_for_Xcode_6.4.dmg
+
+# Install beamsync.py (macOS 10.10 only)
+# See: https://derflounder.wordpress.com/2014/12/13/improving-yosemite-vm-performance-in-vmware-fusion/
+cd /Volumes/VMware\ Shared\ Folders/Mac-OS-X-Shared/macOS/beamsync_for-macOS10.10
+./install.sh
+
+sudo mkdir -p /opt/mc3
+sudo chown -R osgeo:admin /opt
+
+# for macOS 10.10
+tar -C /opt -xzf \
+/Volumes/VMware\ Shared\ Folders/Mac-OS-X-Shared/macOS/MacOSX10.11-sdk_Xcode731.tar.bz2
+
+# for macOS 10.11 (for qt recipe)
+ln -s / /opt/MacOSX10.11.sdk
+
+tar -C /opt -xzf \
+/Volumes/VMware\ Shared\ Folders/Mac-OS-X-Shared/macOS/MacOSX10.9-sdk_Xcode62.tar.bz2
+
+
+cd ~/Downloads
+curl -L -O https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+openssl md5 /Users/boundless/Downloads/Miniconda3-latest-MacOSX-x86_64.sh
+bash ~/Downloads/Miniconda3-latest-MacOSX-x86_64.sh -u
+
+# Restart Terminal session (for conda sourcing)
+
+conda info
+
+conda config --add channels conda-forge
+conda config --add channels osgeo-forge
+
+# Switch everything over to conda-forge in base
+conda activate base
+
+# First, remove Anaconda libc++ (so conda-forge libc++/clang isn't upgraded to)
+# (don't remove dependencies)
+conda remove --force libcxx libcxxabi
+
+# Second, update all remaining packages
+conda update -c conda-forge --override-channels --all
+
+# Update anything that didn't get updated to conda-forge, e.g.
+conda list # <-- check for non-conda-forge package sources
+conda update -c conda-forge --override-channels libedit libffi ncurses readline sqlite
+
+# Install standard build tools
+conda install -c conda-forge --override-channels conda-build conda-verify conda-smithy
+
+# Verify conda install: make sure there are no errors in general operation
+conda search conda-forge::qt
+
+
+mkdir .ssh
+# copy in github.com SSH key
+chmod 400 ~/.ssh/<my private key>
+touch ~/.ssh/config
+chmod 600 ~/.ssh/config
+
+tee -a ~/.ssh/config <<EOF
+Host github.com
+  User git
+  IdentityFile ~/.ssh/<my private key>
+EOF
+
+# Test github.com SSH access
+ssh -T github.com
+# Yes to Permanently added 'github.com,<IP>' (RSA) to the list of known hosts
+# Input private key password and choose to 'Save in keychain'
+
+
+# Clone osgeo-forge custom recipes repo
+cd /opt
+git clone git@github.com:osgeo-forge/osgeo-forge.git
+cd osgeo-forge/
+git pull --recurse-submodules && git submodule update --init --recursive
+
+# important for building (using custom )!
+cd feedstocks/
+
+
+conda build -c conda-forge --override-channels --no-build-id --keep-old-work qt
+# then, if there are compile issues
+	cd /opt/mc3/conda-bld/work
+	./conda_build.sh
+	# then (may need to comment out parts of build.sh in original recipe)
+	conda build -c conda-forge --override-channels --no-build-id --keep-old-work --dirty qt
+
+
+conda install conda-forge::anaconda-client
+anaconda login
+
+
+
+
+exit
+cd /opt/mc3/conda-bld/qt_1537218932914/
+cd work/
+lst
+source activate ../_build_env ../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/
+conda activate ../_build_env ../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/
+envs
+conda activate ../_build_env
+conda activate ../_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/
+envs
+./conda_build.sh
+conda deactivate
+conda deactivate
+envs
+./conda_build.sh
+./conda_build.sh
+make clean
+make dist-clean
+make confclean
+./conda_build.sh
+xcrun -h
+xcrun -sdk MacOSX10.11
+xcode-select -h
+xcode-select -p
+open /Applications/Xcode.app/Contents/Developer
+lst
+xcodebuild -h
+cd qtbase/qmake/
+make distclean
+cd -
+./conda_build.sh
+pushd qtbase/qmake; make distclean; popd
+envs
+$(xcrun --sdk /opt/MacOSX10.11.sdk --show-sdk-path 2>/dev/null)
+$(xcrun --sdk /opt/MacOSX10.11.sdk --show-sdk-path)
+$(xcrun --sdk MacOSX10.11 --show-sdk-path)
+xcrun --show-sdk-path
+envs
+pushd qtbase/qmake; make distclean; popd
+./conda_build.sh
+pushd qtbase/qmake; make distclean; popd
+./conda_build.sh
+xcode-select -h
+xcrun -h
+which xcrun
+./xcrun
+./xcrun --show-sdk-path
+xcrun -h
