@@ -186,3 +186,7 @@
 	path = feedstocks/qtserialport
 	url = git@github.com:osgeo-forge/qtserialport-feedstock.git
 	branch = master
+[submodule "libp11"]
+	path = feedstocks/libp11
+	url = git@github.com:osgeo-forge/libp11-feedstock.git
+	branch = master
