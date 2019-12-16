@@ -190,3 +190,7 @@
 	path = feedstocks/libp11
 	url = git@github.com:osgeo-forge/libp11-feedstock.git
 	branch = master
+[submodule "conda-forge-ci-setup"]
+	path = feedstocks/conda-forge-ci-setup
+	url = git@github.com:osgeo-forge/conda-forge-ci-setup-feedstock.git
+	branch = master
