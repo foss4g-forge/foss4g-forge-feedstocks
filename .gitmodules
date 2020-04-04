@@ -194,3 +194,7 @@
 	path = feedstocks/conda-forge-ci-setup
 	url = git@github.com:osgeo-forge/conda-forge-ci-setup-feedstock.git
 	branch = master
+[submodule "softhsm"]
+	path = feedstocks/softhsm
+	url = git@github.com:osgeo-forge/softhsm-feedstock.git
+	branch = master
